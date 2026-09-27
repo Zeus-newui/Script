@@ -1,19 +1,19 @@
 _G.SAEConfig = _G.SAEConfig or {
     ["Movement"] = {
         ["Mode"] = "Teleport",
-        ["Speed"] = 800,
+        ["Speed"] = 250,
     },
 
     ["Farming"] = {
-        ["Auto Tutorial"] = true,
-        ["Auto Full Index"] = true,
-        ["Auto Treadmill"] = true,
-        ["Auto Upgrade Treadmill"] = true,
-        ["Auto Upgrade Base"] = true,
-        ["Auto Place"] = true,
-        ["Auto Hatch"] = true,
-        ["Auto Claim Reward Index"] = true,
-        ["Auto Equip Best Pets"] = true,
+        ["Auto Tutorial"] = false,
+        ["Auto Full Index"] = false,
+        ["Auto Treadmill"] = false,
+        ["Auto Upgrade Treadmill"] = false,
+        ["Auto Upgrade Base"] = false,
+        ["Auto Place"] = false,
+        ["Auto Hatch"] = false,
+        ["Auto Claim Reward Index"] = false,
+        ["Auto Equip Best Pets"] = false,
         ["Claim Offline Earnings"] = true,
     },
 
