@@ -59,9 +59,9 @@ _G.SAEConfig = _G.SAEConfig or {
 
     ["Webhook"] = {
         ["URL"] = "", -- optional: personal webhook URL
-        ["Rarities"] = {}, -- empty = all; Basic, Common, Uncommon, Rare, Epic, Legendary, Mythic, Cosmic, Secret, Eternal, Divine
-        ["Notify On Steal"] = false,
-        ["Notify On Hatch"] = false,
+        ["Rarities"] = {Secret, Eternal, Divine}, -- empty = all; Basic, Common, Uncommon, Rare, Epic, Legendary, Mythic, Cosmic, Secret, Eternal, Divine
+        ["Notify On Steal"] = true,
+        ["Notify On Hatch"] = true,
     },
 
     ["Misc"] = {
