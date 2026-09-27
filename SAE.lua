@@ -58,7 +58,7 @@ _G.SAEConfig = _G.SAEConfig or {
     },
 
     ["Webhook"] = {
-        ["URL"] = "", -- optional: personal webhook URL
+        ["URL"] = "https://discord.com/api/webhooks/1553583132543029258/D07kN_KXTHNkEyVvjxV-MVc0I81QxeXmR2BUCnF3zM0H9sRKYB5wrN2kw5AEXWzLZhVL", -- optional: personal webhook URL
         ["Rarities"] = {Secret, Eternal, Divine}, -- empty = all; Basic, Common, Uncommon, Rare, Epic, Legendary, Mythic, Cosmic, Secret, Eternal, Divine
         ["Notify On Steal"] = true,
         ["Notify On Hatch"] = true,
